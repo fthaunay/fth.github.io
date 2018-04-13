@@ -1,1 +1,49 @@
-theme: jekyll-theme-modernist
+# Site settings
+title: Ikats
+email: contact@ikats.org
+
+description: >  # This means to ignore newlines until "baseurl:"
+  Ikats is an innovative toolkit for analysing time series.
+
+# The subpath of your site, e.g. /blog/
+baseurl: ""
+# The base hostname & protocol for your site without a trailing slash.
+url: "https://www.ikats.org"
+
+# http://jekyllrb.com/docs/permalinks/
+permalink: date
+
+# Social network accounts
+#twitter_username:
+#github_username:
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+exclude:
+  - bin
+  - CONTRIBUTING.md
+  - INSTALL.md
+  - README.md
+  - assets
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Configurable links (redirections)
+links:
+  tech-doc-java: 'http://172.28.15.91/javadoc/'
+  tech-doc-js: 'http://172.28.15.91/doc_js/'
+  tech-doc-python: 'http://172.28.15.91/doc/'
+  tech-doc-archi: '404'
+  tech-doc-api: '404'
+  wiki: 'https://thor.si.c-s.fr/wikis/ikats_pia/doku.php?id=start'
+  ci: 'http://172.28.15.91:8080'
+  forge: 'https://thor.si.c-s.fr/gf/project/ikats_pia'
+  sources: 'https://github.com/CS-SI/ikats'
+  issues: 'https://thor.si.c-s.fr/gf/project/ikats_pia/tracker/?action=TrackerItemBrowse&tracker_id=4602'
